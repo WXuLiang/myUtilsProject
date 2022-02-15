@@ -38,9 +38,9 @@ public class CharsetUtils {
     }
 
     /**
-     * 获取
-     * @param inputStream
-     * @return
+     * 获取【流】的编码格式
+     * @param inputStream 流
+     * @return 编码格式名称
      */
     public static String getCharsetName(InputStream inputStream) {
         CharsetDetector charsetDetector = new CharsetDetector();
